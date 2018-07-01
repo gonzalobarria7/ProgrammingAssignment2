@@ -78,6 +78,8 @@ Write the following functions:
 ## A pair of functions that cache the inverse of a matrix.
 ## This function creates a special "matrix" object that can cache its inverse.
 
+<!-- -->
+
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y){
@@ -101,6 +103,8 @@ function in R. For example, if `X` is a square invertible matrix, then
 
 For this assignment, assume that the matrix supplied is always
 invertible.
+
+<!-- -->
 
 ## This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
 cacheSolve <- function(x, ...) {
